@@ -18,7 +18,28 @@
 		8615AA6923337F2E00EF12AF /* TransactionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8615AA6823337F2E00EF12AF /* TransactionListViewController.m */; };
 		8615AA6D23337F6E00EF12AF /* CategoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8615AA6C23337F6E00EF12AF /* CategoryListViewController.m */; };
 		8615AA7023338B8600EF12AF /* MEExpenses.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8615AA6F23338B8600EF12AF /* MEExpenses.xcdatamodel */; };
-		8615AA7323338DBE00EF12AF /* MEBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8615AA7223338DBE00EF12AF /* MEBaseService.m */; };
+		8615AA7323338DBE00EF12AF /* FacadeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8615AA7223338DBE00EF12AF /* FacadeService.m */; };
+		864C0C6D2334ED92005DC469 /* CategoryPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C6C2334ED92005DC469 /* CategoryPresenter.m */; };
+		864C0C722334F334005DC469 /* CoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C712334F334005DC469 /* CoredataManager.m */; };
+		864C0C8323350A00005DC469 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C7423350A00005DC469 /* Transaction.m */; };
+		864C0C8423350A00005DC469 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C7523350A00005DC469 /* Category.m */; };
+		864C0C8523350A00005DC469 /* _Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C7623350A00005DC469 /* _Category.m */; };
+		864C0C8623350A00005DC469 /* Amount.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C7823350A00005DC469 /* Amount.m */; };
+		864C0C8723350A00005DC469 /* _Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C7B23350A00005DC469 /* _Transaction.m */; };
+		864C0C8823350A00005DC469 /* Budget.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C7D23350A00005DC469 /* Budget.m */; };
+		864C0C8923350A00005DC469 /* _Amount.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C7E23350A00005DC469 /* _Amount.m */; };
+		864C0C8A23350A00005DC469 /* _Budget.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C8123350A00005DC469 /* _Budget.m */; };
+		864C0C8F23350C84005DC469 /* UIStoryboard+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C8E23350C84005DC469 /* UIStoryboard+UIViewController.m */; };
+		864C0C9223350D67005DC469 /* EditCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C9123350D67005DC469 /* EditCategoryViewController.m */; };
+		864C0C9523350F00005DC469 /* MENavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C9423350F00005DC469 /* MENavigationViewController.m */; };
+		864C0C98233513FB005DC469 /* METextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0C97233513FB005DC469 /* METextField.m */; };
+		864C0CA22335DDEE005DC469 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0CA12335DDEE005DC469 /* NetworkManager.m */; };
+		864C0CA52335DEC2005DC469 /* NSDictionary+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0CA42335DEC2005DC469 /* NSDictionary+URLEncoding.m */; };
+		864C0CA92335F4E0005DC469 /* EditTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0CA82335F4E0005DC469 /* EditTransactionViewController.m */; };
+		864C0CAC2335FC31005DC469 /* AccessoryTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0CAB2335FC31005DC469 /* AccessoryTextField.m */; };
+		864C0CAF233601CD005DC469 /* RightSelectionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0CAE233601CD005DC469 /* RightSelectionTextField.m */; };
+		864C0CB32336120C005DC469 /* TransactionPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0CB22336120C005DC469 /* TransactionPresenter.m */; };
+		864C0CB623362413005DC469 /* DateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C0CB523362413005DC469 /* DateTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +63,55 @@
 		8615AA6B23337F6E00EF12AF /* CategoryListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryListViewController.h; sourceTree = "<group>"; };
 		8615AA6C23337F6E00EF12AF /* CategoryListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryListViewController.m; sourceTree = "<group>"; };
 		8615AA6F23338B8600EF12AF /* MEExpenses.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MEExpenses.xcdatamodel; sourceTree = "<group>"; };
-		8615AA7123338DBE00EF12AF /* MEBaseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEBaseService.h; sourceTree = "<group>"; };
-		8615AA7223338DBE00EF12AF /* MEBaseService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEBaseService.m; sourceTree = "<group>"; };
+		8615AA7123338DBE00EF12AF /* FacadeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeService.h; sourceTree = "<group>"; };
+		8615AA7223338DBE00EF12AF /* FacadeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeService.m; sourceTree = "<group>"; };
+		864C0C6B2334ED92005DC469 /* CategoryPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryPresenter.h; sourceTree = "<group>"; };
+		864C0C6C2334ED92005DC469 /* CategoryPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryPresenter.m; sourceTree = "<group>"; };
+		864C0C6E2334F0D9005DC469 /* MEConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEConstants.h; sourceTree = "<group>"; };
+		864C0C702334F334005DC469 /* CoredataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoredataManager.h; sourceTree = "<group>"; };
+		864C0C712334F334005DC469 /* CoredataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoredataManager.m; sourceTree = "<group>"; };
+		864C0C7323350A00005DC469 /* _Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Category.h; sourceTree = "<group>"; };
+		864C0C7423350A00005DC469 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		864C0C7523350A00005DC469 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		864C0C7623350A00005DC469 /* _Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Category.m; sourceTree = "<group>"; };
+		864C0C7723350A00005DC469 /* _Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Transaction.h; sourceTree = "<group>"; };
+		864C0C7823350A00005DC469 /* Amount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amount.m; sourceTree = "<group>"; };
+		864C0C7923350A00005DC469 /* _Budget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Budget.h; sourceTree = "<group>"; };
+		864C0C7A23350A00005DC469 /* _Amount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Amount.h; sourceTree = "<group>"; };
+		864C0C7B23350A00005DC469 /* _Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Transaction.m; sourceTree = "<group>"; };
+		864C0C7C23350A00005DC469 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		864C0C7D23350A00005DC469 /* Budget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Budget.m; sourceTree = "<group>"; };
+		864C0C7E23350A00005DC469 /* _Amount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Amount.m; sourceTree = "<group>"; };
+		864C0C7F23350A00005DC469 /* Budget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Budget.h; sourceTree = "<group>"; };
+		864C0C8023350A00005DC469 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		864C0C8123350A00005DC469 /* _Budget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Budget.m; sourceTree = "<group>"; };
+		864C0C8223350A00005DC469 /* Amount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amount.h; sourceTree = "<group>"; };
+		864C0C8D23350C84005DC469 /* UIStoryboard+UIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+UIViewController.h"; sourceTree = "<group>"; };
+		864C0C8E23350C84005DC469 /* UIStoryboard+UIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+UIViewController.m"; sourceTree = "<group>"; };
+		864C0C9023350D67005DC469 /* EditCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditCategoryViewController.h; sourceTree = "<group>"; };
+		864C0C9123350D67005DC469 /* EditCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditCategoryViewController.m; sourceTree = "<group>"; };
+		864C0C9323350F00005DC469 /* MENavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MENavigationViewController.h; sourceTree = "<group>"; };
+		864C0C9423350F00005DC469 /* MENavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MENavigationViewController.m; sourceTree = "<group>"; };
+		864C0C96233513FB005DC469 /* METextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = METextField.h; sourceTree = "<group>"; };
+		864C0C97233513FB005DC469 /* METextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = METextField.m; sourceTree = "<group>"; };
+		864C0CA02335DDEE005DC469 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		864C0CA12335DDEE005DC469 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		864C0CA32335DEC2005DC469 /* NSDictionary+URLEncoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URLEncoding.h"; sourceTree = "<group>"; };
+		864C0CA42335DEC2005DC469 /* NSDictionary+URLEncoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLEncoding.m"; sourceTree = "<group>"; };
+		864C0CA72335F4E0005DC469 /* EditTransactionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditTransactionViewController.h; sourceTree = "<group>"; };
+		864C0CA82335F4E0005DC469 /* EditTransactionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditTransactionViewController.m; sourceTree = "<group>"; };
+		864C0CAA2335FC31005DC469 /* AccessoryTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessoryTextField.h; sourceTree = "<group>"; };
+		864C0CAB2335FC31005DC469 /* AccessoryTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessoryTextField.m; sourceTree = "<group>"; };
+		864C0CAD233601CD005DC469 /* RightSelectionTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightSelectionTextField.h; sourceTree = "<group>"; };
+		864C0CAE233601CD005DC469 /* RightSelectionTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightSelectionTextField.m; sourceTree = "<group>"; };
+		864C0CB12336120C005DC469 /* TransactionPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionPresenter.h; sourceTree = "<group>"; };
+		864C0CB22336120C005DC469 /* TransactionPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionPresenter.m; sourceTree = "<group>"; };
+		864C0CB423362413005DC469 /* DateTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateTextField.h; sourceTree = "<group>"; };
+		864C0CB523362413005DC469 /* DateTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateTextField.m; sourceTree = "<group>"; };
+		864C0CC12336FDD7005DC469 /* TransactionPresenterProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionPresenterProtocols.h; sourceTree = "<group>"; };
+		864C0CC22336FE17005DC469 /* TransactionViewProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionViewProtocols.h; sourceTree = "<group>"; };
+		864C0CC62336FF43005DC469 /* CategoryPresenterProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryPresenterProtocols.h; sourceTree = "<group>"; };
+		864C0CC72336FF86005DC469 /* CategoryViewProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewProtocols.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,77 +147,41 @@
 			children = (
 				8615AA3C2333737B00EF12AF /* AppDelegate.h */,
 				8615AA3D2333737B00EF12AF /* AppDelegate.m */,
-				8615AA582333792000EF12AF /* MEBaseUtils */,
-				8615AA572333782900EF12AF /* MEViews */,
-				8615AA562333781E00EF12AF /* MEPresenter */,
-				8615AA552333780800EF12AF /* Model */,
+				8615AA6223337E5C00EF12AF /* MEOverview */,
+				864C0CBB2336F940005DC469 /* METransaction */,
+				864C0CB72336F8B9005DC469 /* MECategory */,
+				8615AA582333792000EF12AF /* MEHelpers */,
 			);
 			path = MEExpense;
 			sourceTree = "<group>";
 		};
-		8615AA552333780800EF12AF /* Model */ = {
+		8615AA582333792000EF12AF /* MEHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				864C0CC823371FF9005DC469 /* MEService */,
+				864C0C9F2335DCC5005DC469 /* MENetworkManager */,
+				864C0C6F2334F2D8005DC469 /* MECoreDataManager */,
+				864C0CBF2336FA71005DC469 /* MEBase */,
+				864C0C8C23350C46005DC469 /* MEExtensions */,
+				864C0C96233513FB005DC469 /* METextField.h */,
+				864C0C97233513FB005DC469 /* METextField.m */,
+				864C0CAA2335FC31005DC469 /* AccessoryTextField.h */,
+				864C0CAB2335FC31005DC469 /* AccessoryTextField.m */,
+				864C0CAD233601CD005DC469 /* RightSelectionTextField.h */,
+				864C0CAE233601CD005DC469 /* RightSelectionTextField.m */,
+				864C0CB423362413005DC469 /* DateTextField.h */,
+				864C0CB523362413005DC469 /* DateTextField.m */,
 			);
-			path = Model;
+			path = MEHelpers;
 			sourceTree = "<group>";
 		};
-		8615AA562333781E00EF12AF /* MEPresenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MEPresenter;
-			sourceTree = "<group>";
-		};
-		8615AA572333782900EF12AF /* MEViews */ = {
-			isa = PBXGroup;
-			children = (
-				8615AA6A23337F5800EF12AF /* Category */,
-				8615AA6623337F0000EF12AF /* Transaction */,
-				8615AA6223337E5C00EF12AF /* Overview */,
-			);
-			path = MEViews;
-			sourceTree = "<group>";
-		};
-		8615AA582333792000EF12AF /* MEBaseUtils */ = {
-			isa = PBXGroup;
-			children = (
-				8615AA5E23337B2D00EF12AF /* MEBaseProtocols.h */,
-				8615AA59233379A800EF12AF /* MEBaseViewController.h */,
-				8615AA5A233379A800EF12AF /* MEBaseViewController.m */,
-				8615AA5F23337BC600EF12AF /* MEBasePresenter.h */,
-				8615AA6023337BC600EF12AF /* MEBasePresenter.m */,
-				8615AA7123338DBE00EF12AF /* MEBaseService.h */,
-				8615AA7223338DBE00EF12AF /* MEBaseService.m */,
-			);
-			path = MEBaseUtils;
-			sourceTree = "<group>";
-		};
-		8615AA6223337E5C00EF12AF /* Overview */ = {
+		8615AA6223337E5C00EF12AF /* MEOverview */ = {
 			isa = PBXGroup;
 			children = (
 				8615AA6323337EB100EF12AF /* FEOverViewController.h */,
 				8615AA6423337EB100EF12AF /* FEOverViewController.m */,
 			);
-			path = Overview;
-			sourceTree = "<group>";
-		};
-		8615AA6623337F0000EF12AF /* Transaction */ = {
-			isa = PBXGroup;
-			children = (
-				8615AA6723337F2E00EF12AF /* TransactionListViewController.h */,
-				8615AA6823337F2E00EF12AF /* TransactionListViewController.m */,
-			);
-			path = Transaction;
-			sourceTree = "<group>";
-		};
-		8615AA6A23337F5800EF12AF /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				8615AA6B23337F6E00EF12AF /* CategoryListViewController.h */,
-				8615AA6C23337F6E00EF12AF /* CategoryListViewController.m */,
-			);
-			path = Category;
+			path = MEOverview;
 			sourceTree = "<group>";
 		};
 		8615AA6E233383CB00EF12AF /* Resources */ = {
@@ -163,6 +195,193 @@
 				8615AA4E2333737B00EF12AF /* main.m */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		8615AA8D2334E98A00EF12AF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				864C0C8223350A00005DC469 /* Amount.h */,
+				864C0C7823350A00005DC469 /* Amount.m */,
+				864C0C7F23350A00005DC469 /* Budget.h */,
+				864C0C7D23350A00005DC469 /* Budget.m */,
+				864C0C8B23350A07005DC469 /* Managed */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		864C0C6F2334F2D8005DC469 /* MECoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				864C0C702334F334005DC469 /* CoredataManager.h */,
+				864C0C712334F334005DC469 /* CoredataManager.m */,
+				8615AA8D2334E98A00EF12AF /* models */,
+			);
+			path = MECoreDataManager;
+			sourceTree = "<group>";
+		};
+		864C0C8B23350A07005DC469 /* Managed */ = {
+			isa = PBXGroup;
+			children = (
+				864C0C7A23350A00005DC469 /* _Amount.h */,
+				864C0C7E23350A00005DC469 /* _Amount.m */,
+				864C0C7923350A00005DC469 /* _Budget.h */,
+				864C0C8123350A00005DC469 /* _Budget.m */,
+				864C0C7323350A00005DC469 /* _Category.h */,
+				864C0C7623350A00005DC469 /* _Category.m */,
+				864C0C7723350A00005DC469 /* _Transaction.h */,
+				864C0C7B23350A00005DC469 /* _Transaction.m */,
+			);
+			path = Managed;
+			sourceTree = "<group>";
+		};
+		864C0C8C23350C46005DC469 /* MEExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				864C0C8D23350C84005DC469 /* UIStoryboard+UIViewController.h */,
+				864C0C8E23350C84005DC469 /* UIStoryboard+UIViewController.m */,
+			);
+			path = MEExtensions;
+			sourceTree = "<group>";
+		};
+		864C0C9F2335DCC5005DC469 /* MENetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				864C0CA02335DDEE005DC469 /* NetworkManager.h */,
+				864C0CA12335DDEE005DC469 /* NetworkManager.m */,
+				864C0CA62335DED0005DC469 /* NSDictionary+Extension */,
+			);
+			path = MENetworkManager;
+			sourceTree = "<group>";
+		};
+		864C0CA62335DED0005DC469 /* NSDictionary+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				864C0CA32335DEC2005DC469 /* NSDictionary+URLEncoding.h */,
+				864C0CA42335DEC2005DC469 /* NSDictionary+URLEncoding.m */,
+			);
+			path = "NSDictionary+Extension";
+			sourceTree = "<group>";
+		};
+		864C0CB72336F8B9005DC469 /* MECategory */ = {
+			isa = PBXGroup;
+			children = (
+				864C0CC42336FEFE005DC469 /* protocols */,
+				864C0CBA2336F921005DC469 /* models */,
+				864C0CB92336F8DB005DC469 /* presenters */,
+				864C0CB82336F8CD005DC469 /* views */,
+			);
+			path = MECategory;
+			sourceTree = "<group>";
+		};
+		864C0CB82336F8CD005DC469 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8615AA6B23337F6E00EF12AF /* CategoryListViewController.h */,
+				8615AA6C23337F6E00EF12AF /* CategoryListViewController.m */,
+				864C0C9023350D67005DC469 /* EditCategoryViewController.h */,
+				864C0C9123350D67005DC469 /* EditCategoryViewController.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		864C0CB92336F8DB005DC469 /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				864C0C6B2334ED92005DC469 /* CategoryPresenter.h */,
+				864C0C6C2334ED92005DC469 /* CategoryPresenter.m */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		864C0CBA2336F921005DC469 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				864C0C7C23350A00005DC469 /* Category.h */,
+				864C0C7523350A00005DC469 /* Category.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		864C0CBB2336F940005DC469 /* METransaction */ = {
+			isa = PBXGroup;
+			children = (
+				864C0CC32336FE22005DC469 /* Protocols */,
+				864C0CBE2336F9B5005DC469 /* models */,
+				864C0CBD2336F958005DC469 /* presenters */,
+				864C0CBC2336F950005DC469 /* views */,
+			);
+			path = METransaction;
+			sourceTree = "<group>";
+		};
+		864C0CBC2336F950005DC469 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8615AA6723337F2E00EF12AF /* TransactionListViewController.h */,
+				8615AA6823337F2E00EF12AF /* TransactionListViewController.m */,
+				864C0CA72335F4E0005DC469 /* EditTransactionViewController.h */,
+				864C0CA82335F4E0005DC469 /* EditTransactionViewController.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		864C0CBD2336F958005DC469 /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				864C0CB12336120C005DC469 /* TransactionPresenter.h */,
+				864C0CB22336120C005DC469 /* TransactionPresenter.m */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		864C0CBE2336F9B5005DC469 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				864C0C8023350A00005DC469 /* Transaction.h */,
+				864C0C7423350A00005DC469 /* Transaction.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		864C0CBF2336FA71005DC469 /* MEBase */ = {
+			isa = PBXGroup;
+			children = (
+				864C0C6E2334F0D9005DC469 /* MEConstants.h */,
+				864C0C9323350F00005DC469 /* MENavigationViewController.h */,
+				864C0C9423350F00005DC469 /* MENavigationViewController.m */,
+				8615AA5E23337B2D00EF12AF /* MEBaseProtocols.h */,
+				8615AA59233379A800EF12AF /* MEBaseViewController.h */,
+				8615AA5A233379A800EF12AF /* MEBaseViewController.m */,
+				8615AA5F23337BC600EF12AF /* MEBasePresenter.h */,
+				8615AA6023337BC600EF12AF /* MEBasePresenter.m */,
+			);
+			path = MEBase;
+			sourceTree = "<group>";
+		};
+		864C0CC32336FE22005DC469 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				864C0CC22336FE17005DC469 /* TransactionViewProtocols.h */,
+				864C0CC12336FDD7005DC469 /* TransactionPresenterProtocols.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		864C0CC42336FEFE005DC469 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				864C0CC62336FF43005DC469 /* CategoryPresenterProtocols.h */,
+				864C0CC72336FF86005DC469 /* CategoryViewProtocols.h */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		864C0CC823371FF9005DC469 /* MEService */ = {
+			isa = PBXGroup;
+			children = (
+				8615AA7123338DBE00EF12AF /* FacadeService.h */,
+				8615AA7223338DBE00EF12AF /* FacadeService.m */,
+			);
+			path = MEService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,12 +457,33 @@
 				8615AA6D23337F6E00EF12AF /* CategoryListViewController.m in Sources */,
 				8615AA3E2333737B00EF12AF /* AppDelegate.m in Sources */,
 				8615AA6123337BC600EF12AF /* MEBasePresenter.m in Sources */,
+				864C0CAC2335FC31005DC469 /* AccessoryTextField.m in Sources */,
 				8615AA6523337EB100EF12AF /* FEOverViewController.m in Sources */,
-				8615AA7323338DBE00EF12AF /* MEBaseService.m in Sources */,
+				864C0CA52335DEC2005DC469 /* NSDictionary+URLEncoding.m in Sources */,
+				864C0C722334F334005DC469 /* CoredataManager.m in Sources */,
+				864C0CB32336120C005DC469 /* TransactionPresenter.m in Sources */,
+				8615AA7323338DBE00EF12AF /* FacadeService.m in Sources */,
+				864C0C8823350A00005DC469 /* Budget.m in Sources */,
+				864C0C8323350A00005DC469 /* Transaction.m in Sources */,
 				8615AA6923337F2E00EF12AF /* TransactionListViewController.m in Sources */,
+				864C0C6D2334ED92005DC469 /* CategoryPresenter.m in Sources */,
+				864C0C98233513FB005DC469 /* METextField.m in Sources */,
+				864C0C8523350A00005DC469 /* _Category.m in Sources */,
+				864C0CA92335F4E0005DC469 /* EditTransactionViewController.m in Sources */,
 				8615AA4F2333737B00EF12AF /* main.m in Sources */,
+				864C0C9223350D67005DC469 /* EditCategoryViewController.m in Sources */,
 				8615AA5B233379A800EF12AF /* MEBaseViewController.m in Sources */,
+				864C0C8F23350C84005DC469 /* UIStoryboard+UIViewController.m in Sources */,
+				864C0CA22335DDEE005DC469 /* NetworkManager.m in Sources */,
+				864C0C8923350A00005DC469 /* _Amount.m in Sources */,
+				864C0C8423350A00005DC469 /* Category.m in Sources */,
 				8615AA7023338B8600EF12AF /* MEExpenses.xcdatamodel in Sources */,
+				864C0C8723350A00005DC469 /* _Transaction.m in Sources */,
+				864C0CB623362413005DC469 /* DateTextField.m in Sources */,
+				864C0C8623350A00005DC469 /* Amount.m in Sources */,
+				864C0CAF233601CD005DC469 /* RightSelectionTextField.m in Sources */,
+				864C0C9523350F00005DC469 /* MENavigationViewController.m in Sources */,
+				864C0C8A23350A00005DC469 /* _Budget.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +628,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FRJUXFZKGC;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -408,6 +649,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FRJUXFZKGC;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

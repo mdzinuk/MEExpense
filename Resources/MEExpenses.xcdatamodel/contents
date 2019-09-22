@@ -20,9 +20,9 @@
         <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="transaction" inverseEntity="Category" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Transaction" positionX="-556.30859375" positionY="-174.03515625" width="128" height="88"/>
         <element name="Amount" positionX="-30.12109375" positionY="-174.296875" width="128" height="73"/>
         <element name="Budget" positionX="-108.66796875" positionY="202.74609375" width="128" height="73"/>
         <element name="Category" positionX="-545.5546875" positionY="172.6953125" width="128" height="103"/>
+        <element name="Transaction" positionX="-556.30859375" positionY="-174.03515625" width="128" height="88"/>
     </elements>
 </model>

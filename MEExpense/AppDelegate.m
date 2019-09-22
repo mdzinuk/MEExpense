@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CoredataManager.h"
 
 @interface AppDelegate ()
 @end
@@ -21,7 +22,9 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application { }
 - (void)applicationWillEnterForeground:(UIApplication *)application { }
 - (void)applicationDidBecomeActive:(UIApplication *)application { }
-- (void)applicationWillTerminate:(UIApplication *)application { }
+- (void)applicationWillTerminate:(UIApplication *)application {
+    [CoredataManager.sharedManager saveContext];
+}
 
 
 @end
